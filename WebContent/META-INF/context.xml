@@ -1,0 +1,9 @@
+<Context>
+ 
+  <Resource name="jdbc/cds" auth="Container" type="javax.sql.DataSource"
+               maxActive="50" maxIdle="30" maxWait="10000"
+               username="root" password="f1j0k3p0t0t10s" 
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/CDs"/>
+ 
+</Context>
